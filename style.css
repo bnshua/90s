@@ -1,3 +1,95 @@
-.white-text {
-  color: white;
-}
+      body {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-repeat: repeat;
+        background-size: auto;
+      }
+
+
+      .gif-right {
+        position: fixed;
+        right: 20px;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 300px;
+      }
+
+      .gif-bottomright {
+        position: fixed;
+        right: 20px;
+        top: 85%;
+        transform: translateY(-85%);
+        width: 300px;
+      }
+      
+      .gif-magician {
+        position: fixed;
+        right: 500px;
+        top: 35%;
+        width: 200px;
+
+      }
+
+      .gif-mcdonalds {
+        position: fixed;
+        bottom: 0%;
+        width: 200px;
+
+      }
+
+      .gif-clickable {
+        position: fixed;
+        right: 693px;
+        bottom: 3%;
+        width: 100px;
+      }
+
+      .gif-delorian {
+        position: fixed; 
+        right: 500px;
+        bottom: 80%; 
+        width: 200px;
+
+      }
+
+      .img-bttf2 {
+        position: fixed;
+        right: 50px;
+        bottom: 3%;
+        width: 350px;
+      }
+
+      .gif-back {
+        position: fixed;
+        left: 5px;
+        bottom: 0%;
+        transform: translateY(-50%);
+        width: 100px;
+      }
+
+      .gif-back {
+        position: fixed;
+        left: 5px;
+        bottom: 0%;
+        transform: translateY(-50%);
+        width: 100px;
+      }
+
+      .gif-opencar {
+        position: fixed;
+        right: 20px;
+        bottom: 20%;
+        transform: translateY(-50%);
+        width: 300px;
+      }
+
+      .img-bttf {
+        position: fixed;
+        right: 500px;
+        bottom: 0%;
+        transform: translateY(-0%);
+        width: 275px;
+      }
+
+      .tc {
+        color: white;
+      }
