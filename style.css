@@ -5,6 +5,8 @@
       }
 
 
+      
+
       .gif-right {
         position: fixed;
         right: 20px;
@@ -99,6 +101,30 @@
         width: 275px;
       }
 
+      .bskhme {
+        position: fixed;
+        right: 600px;
+        bottom: 35%;
+        width: 200
+
+      }
+
+      .dlrhme {
+        position: fixed;
+        right: 900px;
+        bottom: 35%;
+        width: 200;
+
+      }
+
+      .mcdhme {
+        position: fixed;
+        right: 400px;
+        bottom: 35%;
+        width: 200;
+
+      }
+
       .gif-home {
         position: fixed;
         right: 300px;
@@ -107,9 +133,67 @@
         width: 100px;
       }
 
+      .border {
+        position: fixed;
+        right: 0px;
+        bottom: 0px;
+        width: 100vw;
+      }
+
+
+      .border2 {
+        position: fixed;
+        right: 0px;
+        top: 0px;
+        width: 100vw;
+      }
+
+      .border3 {
+        position: fixed;
+        right: 650px;
+        top: 0px;
+        width: 100vw;
+        transform: rotate(90deg)
+      }
+
+
+      .border4 {
+        position: fixed;
+        left: 650px;
+        top: 0px;
+        width: 100vw;
+        transform: rotate(90deg)
+      }
+
+    
+      .gif-tv {
+        position: fixed;
+        right: 390px;
+        bottom: 10%;
+        transform: translateY(-10%);
+        width: 600px;
+      }
+
+      .gif-tvbrdcst {
+        position: fixed;
+        right: 560px;
+        bottom: 35%;
+        width: 360px
+
+      }
 
       .tc {
         color: white;
+      }
+
+
+      .pc {
+        color: white;
+        text-align: center;
+        position: relative;
+        z-index: 100;
+        
+
       }
 
     .main-container {
