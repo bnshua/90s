@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title style="color: blue">The DELOREAN</title>
+    <title style="color: blue">Basketball</title>
     <link rel="stylesheet" href="style.css" />
   </head>
 
@@ -13,6 +13,8 @@
     
     <h1 class=pc>Welcome to the sport of BASKETBALL</h1>
 
+    <h4 class=ec><br><br><br><br><br> <br><br> <br><br><br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Click the TV to change the broadcast</h4>
+
 
 
 
@@ -20,11 +22,14 @@
     <img
         src="img/tv.gif"
         class="gif-tv"
+        id="tv"
+        style="cursor: pointer"
     />
     
     <img
         src="img/tvbball.gif"
         class="gif-tvbrdcst"
+        id="screen"
     />
     
     <img 
@@ -58,9 +63,27 @@
         />
     </a>
 
+
+    <script>
+  
+      const images = [
+        "img/tvbball.gif",
+        "img/animation 3.gif",
+        "img/animation2.gif",
+        "img/animation4.gif"
+      ];
+
+      let currentIndex = 0;
+      const screen = document.getElementById("screen");
+      const tv = document.getElementById("tv");
+
+      tv.addEventListener("click", () => {
+        currentIndex = (currentIndex + 1) % images.length;
+        screen.src = images[currentIndex];
+      });
+
+    </script>
   </body>
 </html>
 
 
-
-<!--6INEWS2X2H7YPR7LXBEVFV3OTVUCIN2P-->

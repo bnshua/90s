@@ -196,6 +196,16 @@
 
       }
 
+      .ec {
+        color: white;
+        text-align: left;
+        position: relative;
+        z-index: 100;
+        
+
+      }
+
+
     .main-container {
      width: 80%;
      max-width: 960px;
