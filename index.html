@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>McDonald's FAQ Page</title>
     <link rel="stylesheet" href="style.css" />
+  <style>
+    cursor: none
+  </style>
   </head>
 
   <body background="img/Screenshot 2025-11-10 12.22.18 PM.png">
@@ -17,53 +20,32 @@
     <ul class=tc>We have plenty of halal options such as: Fries, drinks and deserts!</ul>
     <ul class=tc>Explore McDonald's food facts, including calorie and dietary info.</ul>
     <h2 class=tc>Touch the Delorean to get information on it!</h2>
-  
-    <img
-      src="img/output-onlinegiftools.gif"
-      class="gif-right"
-    />
 
-    <img
-      src="img/2DB5XFT7TG7Z4HOL57OTXLPOH572VXPK.gif"
-      class="gif-bottomright"
-    />
+    <div class="custom-cursor"></div>
 
-    <img
-      src="img/5CCZ2IYDERIZEJTTOWNESMKNIPTXBFCG.gif"
-      class="gif-magician"
-    />
-
-    <img
-      src="img/D4UDTSOSXIQSHTWP2TBSJGITBNMCPYOC.gif"
-      class="gif-mcdonalds"
-    />
+    <img src="img/output-onlinegiftools.gif" class="gif-right" />
+    <img src="img/2DB5XFT7TG7Z4HOL57OTXLPOH572VXPK.gif" class="gif-bottomright" />
+    <img src="img/5CCZ2IYDERIZEJTTOWNESMKNIPTXBFCG.gif" class="gif-magician" />
+    <img src="img/D4UDTSOSXIQSHTWP2TBSJGITBNMCPYOC.gif" class="gif-mcdonalds" />
 
     <a href="https://www.mcdonalds.com/us/en-us/restaurant-locator.html" target="_blank">
-      <img
-        src="img/6FEOYCFTNP7ZV74T7AKIRDAVDT4Z3JEI.gif"
-        class="gif-clickable"
-      />
-    
-
-
+      <img src="img/6FEOYCFTNP7ZV74T7AKIRDAVDT4Z3JEI.gif" class="gif-clickable" />
     </a>
+
     <a href="index-2.html" target="_blank">
-      <img
-        src="img/b2tf.gif"
-        class="gif-delorian"
-      />
+      <img src="img/b2tf.gif" class="gif-delorian" />
     </a>
 
     <a href="homehub.html" target="_blank">
-        <img
-        src="img/6CGAVUZCFXHUMDHNYX56RBU4YNRF7DKG.gif"
-        class="gif-home"
-
-        />
+      <img src="img/6CGAVUZCFXHUMDHNYX56RBU4YNRF7DKG.gif" class="gif-home" />
     </a>
 
-
-    
+    <script>
+      const cursor = document.querySelector('.custom-cursor');
+      document.addEventListener('mousemove', (e) => {
+        cursor.style.left = e.pageX + 'px';
+        cursor.style.top = e.pageY + 'px';
+      });
+    </script>
   </body>
 </html>
-

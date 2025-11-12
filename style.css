@@ -1,223 +1,210 @@
-      body {
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        background-repeat: repeat;
-        background-size: auto;
-      }
-
-
-      
-
-      .gif-right {
-        position: fixed;
-        right: 20px;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 300px;
-      }
-
-      .gif-bottomright {
-        position: fixed;
-        right: 20px;
-        top: 85%;
-        transform: translateY(-85%);
-        width: 300px;
-      }
-      
-      .gif-clickable2 {
-        position: fixed;
-        left: 500px;
-        top: 85%;
-        transform: translateY(-85%);
-        width: 300px;
-      }
-      
-
-      .gif-magician {
-        position: fixed;
-        right: 500px;
-        top: 35%;
-        width: 200px;
-
-      }
-
-      .gif-mcdonalds {
-        position: fixed;
-        bottom: 0%;
-        width: 200px;
-
-      }
-
-      .gif-clickable {
-        position: fixed;
-        right: 693px;
-        bottom: 3%;
-        width: 100px;
-      }
-
-      .gif-delorian {
-        position: fixed; 
-        right: 500px;
-        bottom: 80%; 
-        width: 200px;
-
-      }
-
-      .img-bttf2 {
-        position: fixed;
-        right: 50px;
-        bottom: 3%;
-        width: 350px;
-      }
-
-      .gif-back {
-        position: fixed;
-        left: 5px;
-        bottom: 0%;
-        transform: translateY(-50%);
-        width: 100px;
-      }
-
-      .gif-back {
-        position: fixed;
-        left: 5px;
-        bottom: 0%;
-        transform: translateY(-50%);
-        width: 100px;
-      }
-
-      .gif-opencar {
-        position: fixed;
-        right: 20px;
-        bottom: 20%;
-        transform: translateY(-50%);
-        width: 300px;
-      }
-
-      .img-bttf {
-        position: fixed;
-        right: 500px;
-        bottom: 0%;
-        transform: translateY(-0%);
-        width: 275px;
-      }
-
-      .bskhme {
-        position: fixed;
-        right: 600px;
-        bottom: 35%;
-        width: 200
-
-      }
-
-      .dlrhme {
-        position: fixed;
-        right: 900px;
-        bottom: 35%;
-        width: 200;
-
-      }
-
-      .mcdhme {
-        position: fixed;
-        right: 400px;
-        bottom: 35%;
-        width: 200;
-
-      }
-
-      .gif-home {
-        position: fixed;
-        right: 300px;
-        bottom: 0%;
-        transform: translateY(-0%);
-        width: 100px;
-      }
-
-      .border {
-        position: fixed;
-        right: 0px;
-        bottom: 0px;
-        width: 100vw;
-      }
-
-
-      .border2 {
-        position: fixed;
-        right: 0px;
-        top: 0px;
-        width: 100vw;
-      }
-
-      .border3 {
-        position: fixed;
-        right: 650px;
-        top: 0px;
-        width: 100vw;
-        transform: rotate(90deg)
-      }
-
-
-      .border4 {
-        position: fixed;
-        left: 650px;
-        top: 0px;
-        width: 100vw;
-        transform: rotate(90deg)
-      }
-
-    
-      .gif-tv {
-        position: fixed;
-        right: 390px;
-        bottom: 10%;
-        transform: translateY(-10%);
-        width: 600px;
-      }
-
-      .gif-tvbrdcst {
-        position: fixed;
-        right: 560px;
-        bottom: 35%;
-        width: 360px
-
-      }
-
-      .tc {
-        color: white;
-      }
-
-
-      .pc {
-        color: white;
-        text-align: center;
-        position: relative;
-        z-index: 100;
-        
-
-      }
-
-      .ec {
-        color: white;
-        text-align: left;
-        position: relative;
-        z-index: 100;
-        
-
-      }
-
-
-    .main-container {
-     width: 80%;
-     max-width: 960px;
-     margin: 20px auto;
-     padding: 10px;
-     background-color: #b9a8a8;
-     border: 1px solid #ffffff;
-     box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-     border-radius: 15px;
+body {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-repeat: repeat;
+  background-size: auto;
+  
 }
 
-    <div class="custom-cursor">Hover over me!</div>
-    .custom-cursor {
-    cursor: url('cursor.png'), auto;
+.custom-cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 40px;
+  height: 40px;
+  background: url('img/cursor.gif') no-repeat center / contain;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+}
+
+.gif-right {
+  position: fixed;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 300px;
+}
+
+.gif-bottomright {
+  position: fixed;
+  right: 20px;
+  top: 85%;
+  transform: translateY(-85%);
+  width: 300px;
+}
+
+.gif-clickable2 {
+  position: fixed;
+  left: 500px;
+  top: 85%;
+  transform: translateY(-85%);
+  width: 300px;
+}
+
+.gif-magician {
+  position: fixed;
+  right: 500px;
+  top: 35%;
+  width: 200px;
+}
+
+.gif-mcdonalds {
+  position: fixed;
+  bottom: 0%;
+  width: 200px;
+}
+
+.gif-clickable {
+  position: fixed;
+  right: 693px;
+  bottom: 3%;
+  width: 100px;
+}
+
+.gif-delorian {
+  position: fixed;
+  right: 500px;
+  bottom: 80%;
+  width: 200px;
+}
+
+.img-bttf2 {
+  position: fixed;
+  right: 50px;
+  bottom: 3%;
+  width: 350px;
+}
+
+.gif-back {
+  position: fixed;
+  left: 5px;
+  bottom: 0%;
+  transform: translateY(-50%);
+  width: 100px;
+}
+
+.gif-opencar {
+  position: fixed;
+  right: 20px;
+  bottom: 20%;
+  transform: translateY(-50%);
+  width: 300px;
+}
+
+.img-bttf {
+  position: fixed;
+  right: 500px;
+  bottom: 0%;
+  transform: translateY(-0%);
+  width: 275px;
+}
+
+.bskhme {
+  position: fixed;
+  right: 600px;
+  bottom: 35%;
+  width: 200;
+}
+
+.dlrhme {
+  position: fixed;
+  right: 900px;
+  bottom: 35%;
+  width: 200;
+}
+
+.mcdhme {
+  position: fixed;
+  right: 400px;
+  bottom: 35%;
+  width: 200;
+}
+
+.gif-home {
+  position: fixed;
+  right: 300px;
+  bottom: 0%;
+  transform: translateY(-0%);
+  width: 100px;
+}
+
+.border {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  width: 100vw;
+}
+
+.border2 {
+  position: fixed;
+  right: 0px;
+  top: 0px;
+  width: 100vw;
+}
+
+.border3 {
+  position: fixed;
+  right: 650px;
+  top: 0px;
+  width: 100vw;
+  transform: rotate(90deg);
+}
+
+.border4 {
+  position: fixed;
+  left: 650px;
+  top: 0px;
+  width: 100vw;
+  transform: rotate(90deg);
+}
+
+.gif-tv {
+  position: fixed;
+  right: 390px;
+  bottom: 10%;
+  transform: translateY(-10%);
+  width: 600px;
+}
+
+.gif-tvbrdcst {
+  position: fixed;
+  right: 560px;
+  bottom: 35%;
+  width: 360px;
+}
+
+.tc {
+  color: white;
+}
+
+.pc {
+  color: white;
+  text-align: center;
+  position: relative;
+  z-index: 100;
+}
+
+.ec {
+  color: white;
+  text-align: left;
+  position: relative;
+  z-index: 100;
+}
+
+.main-container {
+  width: 80%;
+  max-width: 960px;
+  margin: 20px auto;
+  padding: 10px;
+  background-color: #b9a8a8;
+  border: 1px solid #ffffff;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+              rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+              rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset,
+              rgba(0, 0, 0, 0.06) 0px 2px 1px,
+              rgba(0, 0, 0, 0.09) 0px 4px 2px,
+              rgba(0, 0, 0, 0.09) 0px 8px 4px,
+              rgba(0, 0, 0, 0.09) 0px 16px 8px,
+              rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  border-radius: 15px;
 }
