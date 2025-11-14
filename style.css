@@ -117,6 +117,14 @@ body {
   width: 200;
 }
 
+.bernardloquias {
+  position: fixed;
+  left: 300 px;
+  bottom: 15%;
+  width: 200;
+
+}
+
 .gif-home {
   position: fixed;
   right: 300px;
@@ -172,6 +180,11 @@ body {
 
 .tc {
   color: white;
+}
+
+.lol {
+  color: green;
+  background-color: rgb(201, 240, 201);
 }
 
 .pc {
